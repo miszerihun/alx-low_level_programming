@@ -2,7 +2,7 @@
 
 /**
  * main -Entery point 
- *
+ * Description: Use main function
  * Return: 0 Always 0 (Success)
  */
 int main(void)
