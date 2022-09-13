@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entery point 
+ * main - Entery point
  *
  * Return: Always 0 (success)
  */
@@ -11,13 +11,13 @@ int main(void)
 	int d;
 
 	c = 'a';
-	while 
+	while
 		(d < 10)
 {
 	putchar(d + '0');
 	d++;
 }
-	while 
+	while
 		(c <= 'f')
 {
 	putchar(c);
