@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - print number 0-9
+ * print_numbers - function that prints all numbers from 0 to 9
  *
- * Return: 0
+ * Return: returns nothing
  */
 
 void print_numbers(void)
