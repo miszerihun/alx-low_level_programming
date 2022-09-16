@@ -23,11 +23,12 @@ void print_triangle(int size)
 				{
 					putchar('#');
 				}
-				if (inc1 == size)
+				else if (inc1 == size)
 				{
-					continue;
+					putchar('\n');
 				}
-				putchar('\n');
+				else
+					putchar('\n');
 		}
-	}
+		}
 }
