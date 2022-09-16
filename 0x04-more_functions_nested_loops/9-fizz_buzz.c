@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - program that prints either number or fizz or buzz or fizzBuzz
- *
+ * main - prints the numbers from 1 to 100
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 & 5 multiples print FizzBuzz instead of the number
  * Return: returns 0
  */
 
