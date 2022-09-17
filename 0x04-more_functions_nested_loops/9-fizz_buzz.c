@@ -8,6 +8,7 @@
  * 3 & 5 multiples print fizzBuzz instead of the number
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 int i;
@@ -23,15 +24,15 @@ printf("%s", b);
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("%s "; fb);
+printf("fb ");
 }
 else if (i % 3 == 0)
 {
-printf("%s "; f);
+printf("f ");
 }
 else if (i % 5 == 0)
 {
-printf("%s "; b);
+printf("b ");
 }
 else
 {
