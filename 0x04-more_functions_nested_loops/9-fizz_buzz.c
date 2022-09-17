@@ -18,7 +18,7 @@ char fb[] = "FizzBuzz";
 
 for (i = 1; i <= 100; i++)
 {
-for (i == 100);
+for (i != 100);
 {
 printf("%s", b);
 }
