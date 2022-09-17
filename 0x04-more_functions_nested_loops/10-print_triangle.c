@@ -1,31 +1,26 @@
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_triangle - a function that prints a triangle
- * @size: siz of the triangle
- * Returns: triangle of "#"s
+ * print_triangle - Prints a triangle
+ * @size: sets the size of the triangle
+ *
+ * Return: nothing
  */
 
 void print_triangle(int size)
 {
-	int inc1, inc2;
+	int i, j;
 
-	if (size >= 0)
-	{
-		for (inc1 = 0; inc1 <= size; ro++);
+	if (size > 0)
+		for (i = size; i > 0; i--)
 		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
-			{
-				_putchar(' ');
-			}
-				for (inc2 = 0; inc2 < inc1; inc2++)
-				{
+			for (j = 1; j <= size; j++)
+				if (j >= i)
 					_putchar('#');
-				}
-				if (inc1 == size)
+				else
+					_putchar(' ');
+			_putchar('\n');
 		}
-		continue;
-	}
-				_putchar('\n')
+	else
+		_putchar('\n');
 }
