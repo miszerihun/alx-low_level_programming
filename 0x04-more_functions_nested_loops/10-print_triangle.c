@@ -9,23 +9,23 @@
 
 void print_triangle(int size)
 {
-	int sp, ro, tr;
+	int inc1, inc2;
 
-	if (size <= 0)
+	if (size >= 0)
 	{
-		_putchar('\n');
-		for (ro = 0; ro <= (size - 1); 
-	ro++);
+		for (inc1 = 0; inc1 <= size; ro++);
 		{
-			for (sp = 0; (size - 1) - ro; sp++)
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
 			{
 				_putchar(' ');
 			}
-				for (tr = 0; tr <= ro; tr++)
+				for (inc2 = 0; inc2 < inc1; inc2++)
 				{
 					_putchar('#');
 				}
-				_putchar('\n');
+				if (inc1 == size)
 		}
+		continue;
 	}
+				_putchar('\n')
 }
