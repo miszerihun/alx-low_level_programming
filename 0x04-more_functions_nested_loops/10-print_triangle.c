@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,12 +9,13 @@
 
 void print_triangle(int size)
 {
-	int sp, ro; tr;
+	int sp, ro, tr;
 
 	if (size <= 0)
 	{
 		_putchar('\n');
-		for (ro = 0; ro <= (size - 1); ro++);
+		for (ro = 0; ro <= (size - 1); 
+	ro++);
 		{
 			for (sp = 0; (size - 1) - ro; sp++)
 			{
