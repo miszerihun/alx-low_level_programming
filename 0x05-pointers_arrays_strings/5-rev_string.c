@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
-void rev_string(char *s)
+void rev_string(char *str)
 {
 	int i = 0;
 
