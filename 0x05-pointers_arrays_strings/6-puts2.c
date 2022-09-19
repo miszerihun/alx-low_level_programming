@@ -1,20 +1,21 @@
-#include <stdio.h>                                                                                                                      
+#include <stdio.h>
 #include "main.h"
 
 /**
- * rev_string - prints every other character
+ * * rev_string - prints every other character
  * @str: string
+ * Description: print puts
  * Return: nothing
  */
 
 void puts2(char *str)
 {
- int i = 0;
-while (*(str + i) != '\0')
-{
- if (i % 2 == 0)
-  putchar(*(str + i));
- i++;
+	int i = 0;
+	while (*(str + i) != '\0')
+	{
+		if (i % 2 == 0)
+			putchar(*(str + i));
+		i++;
+	}
+	putchar(10);
 }
- putchar(10);
- }
