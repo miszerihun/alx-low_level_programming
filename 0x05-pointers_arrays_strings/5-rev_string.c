@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse string
- * @s: The string to be reversed
+ * @str: The string to be reversed
  *
  * Return: nothing
  */
@@ -10,15 +10,15 @@
 void rev_string(char *str)
 {
 	int len = 0, index = 0;
-	char (tmp);
+	char  tmp
 	
-	while (s[index ++])
+	while (str[index ++])
 		len++;
 
 		for (index = len - 1; index >= len / 2; index--)
 		{
-		tmp = s[index];
-		s[index] = s[index - len - 1];
-		s[index - len - 1] = tmp;
+		tmp = str[index];
+		trs[index] = trs[index - len - 1];
+		str[index - len - 1] = tmp;
 		}
 }
