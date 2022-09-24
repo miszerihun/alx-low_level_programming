@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * rev_string - reverse string
- * @str: The string to be reversed
+ * rev_string - reverses string
+ * @s: The string to be reversed
  *
  * Return: nothing
  */
 
-void rev_string(char *str)
+void rev_string(char *s)
 {
 	int i, c, k;
 	char *a, aux;
