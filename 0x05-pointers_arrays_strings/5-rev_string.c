@@ -17,12 +17,13 @@ void rev_string(char *s)
 		i++;
 	}
 	k = 0;
-	j = i = 1;
-	while (k < j)
+	c = i - 1;
+
+	while (k < c)
 	{
 		aux = s[k];
-		s[k] = s[j];
-		s[j] = aux;
+		s[k] = s[c];
+		s[c] = aux;
 		k++;
 		a--;
 	}
