@@ -9,7 +9,7 @@
 char *cap_string(char *)
 {
 	int i = 0, j;
-	char a[] = "\t\n,;.!?\"(){}";
+	char a[] = " \t\n,;.!?\"(){}";
 
 	while (*(s + i))
 	{
@@ -21,7 +21,7 @@ char *cap_string(char *)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					for (a[j] == *(s + i - 1))
+					if (a[j] == *(s + i - 1))
 						*(s + i) -= 'a'- 'A';
 				}
 			}
