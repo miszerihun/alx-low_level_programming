@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strncat - a function that concatenates two strings
@@ -10,7 +10,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, co;
-	
+
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
